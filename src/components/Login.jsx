@@ -24,7 +24,7 @@ const Login = () => {
     });
     result = await result.json();
     localStorage.setItem("user-info", JSON.stringify(result));
-    navigate("/work");
+    navigate("/");
   }
   return (
     <div>
@@ -88,7 +88,7 @@ const Login = () => {
                 <div className="text-center text-lg-start mt-4 pt-2">
                   <button
                     type="button submit"
-                    onSubmit={login}
+                    onClick={login}
                     className="btn btn-primary btn-lg"
                     style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }}
                   >

@@ -62,7 +62,7 @@ const Register = () => {
                               className="form-control"
                               required
                             />
-                            <label class="form-label">Your Name</label>
+                            <label className="form-label">Your Name</label>
                           </div>
                         </div>
 
