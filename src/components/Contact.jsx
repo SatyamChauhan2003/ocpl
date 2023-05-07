@@ -43,7 +43,7 @@ const Contact = () => {
         <Container style={{ color: "white", marginTop: "40px" }}>
           <h1 style={{ fontWeight: 800 }}>Contact Us</h1>
           <div className="flex justify-center">
-            <p className="w-50 md:w-full">{data.content}</p>
+            <p className="xl:w-50 ">{data.content}</p>
           </div>
         </Container>
       </div>

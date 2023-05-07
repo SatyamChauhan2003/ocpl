@@ -12,9 +12,8 @@ const Login = () => {
 
   async function login(e) {
     e.preventDefault();
-    console.log(email, password);
     let item = { email, password };
-    let result = fetch("http://91.203.132.6/login", {
+    let result =await fetch("http://91.203.132.6/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
