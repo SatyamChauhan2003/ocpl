@@ -47,7 +47,7 @@ const data = [
 const About = () => {
   return (
     <div className="bg-gray-700">
-      <div className=" px-28 py-11">
+      <div className=" xl:px-28 px-10  py-11">
         <h3 className="text-gray-200">INTRODUCTION</h3>
         <h2 className="font-bold text-white py-3 xl:text-6xl">OVERVIEW.</h2>
         <p className="text-white py-4 ">
